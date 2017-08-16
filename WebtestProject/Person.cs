@@ -7,6 +7,7 @@ namespace WebtestProject
 {
     public class Person
     {
+        public string Telefone {get;set;}
         public string CPF { get; set; }
         public int Id { get;internal set; }
         public string Surname { get; set; }

@@ -7,10 +7,10 @@ namespace WebtestProject
 {
     public class Person
     {
-
-        public int id;
-        public string name;
-        public int old;
+        public string CPF { get; set; }
+        public int Id { get;internal set; }
+        public string Surname { get; set; }
+        public int Old { get; set; }
         
     }
 }
